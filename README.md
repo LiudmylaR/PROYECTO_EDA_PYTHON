@@ -26,20 +26,20 @@ Preguntas claves:
 :file_folder: PROYECTO_EDA_PYTHON\
 ├── data/\
 │   ├── raw/\
-│   │   ├── bank-additional.csv\
-│   │   └── customer-details.xlsx\
+│   │       ├── bank-additional.csv\
+│   │       └── customer-details.xlsx\
 │   └── processed/\
-│       ├── bank_limpio.csv\
-│       ├── consum_limpio.csv\
-│       └── unido_eda.csv\
+│           ├── bank_limpio.csv\
+│           ├── consum_limpio.csv\
+│           └── unido_eda.csv\
 ├── Notebooks/\
-│    ├── 01_analisis_preliminar_bank.ipynb\
-│    ├── 02_analisis_preliminar_consum.ipynb\
-│    ├── 03_limpieza_transformacion.ipynb\
-│    └── 04_eda.ipynb\
+│   ├── 01_analisis_preliminar_bank.ipynb\
+│   ├── 02_analisis_preliminar_consum.ipynb\
+│   ├── 03_limpieza_transformacion.ipynb\
+│   └── 04_eda.ipynb\
 ├── src/\
-│    ├── sp_limpieza.py\
-│    └── sp_eda.py\
+│   ├── sp_limpieza.py\
+│   └── sp_eda.py\
 ├── .gitignore\
 └── README.md
 
