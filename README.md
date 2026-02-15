@@ -121,7 +121,7 @@ La calidad del contacto supera a la cantidad.\
 **5.3** Canal y momento temporal\
 El canal móvil es más efectivo que el fijo.
 Pico de éxito en 2016 y variaciones leves posteriores.
-Estacionalidad clara, con máximo en octubre.\
+Estacionalidad clara, con máximo en octubre y mínimo en septiembre, recuperación notable en el último trimestre del año.\
 **5.4** Historial de campañas previas\
 Éxito previo → mayor probabilidad de nueva suscripción.
 Demasiados contactos previos no mejoran resultados.
