@@ -102,10 +102,10 @@ El dataset refleja una población bancaria estable, con baja conversión histór
 4. Correlaciones con la suscripción\
 **4.1** Factores positivos\
 Duración de la llamada → principal predictor del éxito.
-Contactos previos → aumentan la probabilidad de conversión.
+Contactos previos → aumentan la probabilidad de conversión.\
 **4.2** Factores negativos\
 Variables económicas (empleo, Euríbor, variación del empleo) → reducen la probabilidad de suscripción cuando son altas.
-Tiempo desde último contacto → menor probabilidad si nunca se contactó.
+Tiempo desde último contacto → menor probabilidad si nunca se contactó.\
 **4.3** Factores sin influencia\
 Ingresos, hijos, visitas web → sin relación lineal con la conversión.
 Edad y número de contactos → efecto muy débil.
@@ -113,19 +113,19 @@ Edad y número de contactos → efecto muy débil.
 **5.1** Perfil demográfico y financiero\
 Mayor conversión en estudiantes, jubilados y solteros.
 La hipoteca aumenta ligeramente la suscripción.
-Ingresos y edad no son determinantes.
+Ingresos y edad no son determinantes.\
 **5.2** Duración e intensidad de la campaña\
 Conversaciones más largas → mayor éxito.
 Más contactos → menor efectividad (rendimientos decrecientes).
-La calidad del contacto supera a la cantidad.
+La calidad del contacto supera a la cantidad.\
 **5.3** Canal y momento temporal\
 El canal móvil es más efectivo que el fijo.
 Pico de éxito en 2016 y variaciones leves posteriores.
-Estacionalidad clara, con máximo en octubre.
+Estacionalidad clara, con máximo en octubre.\
 **5.4** Historial de campañas previas\
 Éxito previo → mayor probabilidad de nueva suscripción.
 Demasiados contactos previos no mejoran resultados.
-La experiencia previa influye positivamente.
+La experiencia previa influye positivamente.\
 **5.5** Contexto macroeconómico\
 La suscripción aumenta cuando el entorno económico es incierto o débil.
 Los clientes buscan seguridad y ahorro en periodos desfavorables.
