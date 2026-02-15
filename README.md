@@ -62,35 +62,35 @@ Preguntas claves:
 - Historial y contexto económico: impacto de campañas previas y variables macro.
 - Conclusiones y recomendaciones: factores clave y estrategia óptima de marketing.
 
-:white_check_mark: Informe explicativo del análisis\
+:white_check_mark: Informe explicativo del análisis
 1. Descripción general del conjunto de datos\
 El conjunto de datos, previamente limpiado y preparado para el análisis, contiene:
 42 752 registros, cada uno correspondiente a una interacción individual con un cliente durante una campaña de marketing bancario.
 28 variables de tipo numérico, categórico y temporal.
 Ausencia de valores nulos y duplicados, lo que garantiza consistencia y fiabilidad en el análisis.
 Las variables incluyen información demográfica, financiera, de interacción comercial, comportamiento digital, contexto macroeconómico y resultado de conversión, permitiendo un análisis integral de los factores asociados a la suscripción del producto.
-2. Análisis descriptivo de variables\
-2.1 Variables demográficas y del cliente\
+2. Análisis de variables numéricas\
+**2.1** Variables demográficas y del cliente\
 La edad se concentra alrededor de los 40 años, con variabilidad moderada y algunos valores extremos.
 El ingreso presenta alta dispersión, evidenciando heterogeneidad socioeconómica.
 La mayoría de clientes tiene uno o ningún hijo, mostrando baja variabilidad familiar.
 El perfil de clientes es relativamente adulto y diverso en términos económicos, aunque la estructura familiar es bastante homogénea.\
-2.2 Variables de interacción con campañas\
+**2.2** Variables de interacción con campañas\
 La duración de la llamada muestra fuerte asimetría positiva, con llamadas muy largas asociadas a posibles conversiones.
 El número de contactos en la campaña se concentra en valores bajos, aunque existen casos de contacto excesivo que sugieren saturación.
 Existen muy pocos contactos previos, y el valor 999 en 'pdays' indica que la mayoría nunca fue contactada antes.
 La calidad del contacto parece más relevante que la cantidad, y gran parte de los clientes no tenía historial previo de interacción.\
-2.3 Variables macroeconómicas\
+**2.3** Variables macroeconómicas\
 La variación del empleo presenta valores positivos y negativos, reflejando ciclos económicos.
 El índice de precios muestra baja dispersión, indicando estabilidad inflacionaria.
 La confianza del consumidor es negativa y variable, señalando percepción económica moderada o baja.
 El Euríbor varía ampliamente, reflejando cambios importantes en tasas de interés.
 El número de empleados es relativamente estable.
 El contexto económico fluctúa, especialmente en tasas de interés y empleo, lo que puede influir en decisiones de ahorro.\
-2.4 Variables temporales y digitales\
+**2.4** Variables temporales y digitales\
 Las interacciones abarcan 2015-2019, mientras que la antigüedad de clientes se sitúa en 2012-2014.
 Las visitas web mensuales presentan distribución casi simétrica, indicando uso digital frecuente.\
-2.5 Variable de conversión\
+**2.5** Variable de conversión\
 Solo ≈11 % de los clientes suscriben el producto.
 La distribución está fuertemente sesgada hacia la respuesta negativa.
 3. Análisis de variables categóricas\
@@ -100,43 +100,43 @@ El canal principal de contacto es teléfono móvil.
 La mayoría no tuvo campañas previas y no suscribe el producto.
 El dataset refleja una población bancaria estable, con baja conversión histórica.
 4. Correlaciones con la suscripción\
-4.1 Factores positivos\
+**4.1** Factores positivos\
 Duración de la llamada → principal predictor del éxito.
 Contactos previos → aumentan la probabilidad de conversión.
-4.2 Factores negativos\
+**4.2** Factores negativos\
 Variables económicas (empleo, Euríbor, variación del empleo) → reducen la probabilidad de suscripción cuando son altas.
 Tiempo desde último contacto → menor probabilidad si nunca se contactó.
-4.3 Factores sin influencia\
+**4.3** Factores sin influencia\
 Ingresos, hijos, visitas web → sin relación lineal con la conversión.
 Edad y número de contactos → efecto muy débil.
 5. Resultados por bloques de negocio\
-5.1 Perfil demográfico y financiero\
+**5.1** Perfil demográfico y financiero\
 Mayor conversión en estudiantes, jubilados y solteros.
 La hipoteca aumenta ligeramente la suscripción.
 Ingresos y edad no son determinantes.
-5.2 Duración e intensidad de la campaña\
+**5.2** Duración e intensidad de la campaña\
 Conversaciones más largas → mayor éxito.
 Más contactos → menor efectividad (rendimientos decrecientes).
 La calidad del contacto supera a la cantidad.
-5.3 Canal y momento temporal\
+**5.3** Canal y momento temporal\
 El canal móvil es más efectivo que el fijo.
 Pico de éxito en 2016 y variaciones leves posteriores.
 Estacionalidad clara, con máximo en octubre.
-5.4 Historial de campañas previas\
+**5.4** Historial de campañas previas\
 Éxito previo → mayor probabilidad de nueva suscripción.
 Demasiados contactos previos no mejoran resultados.
 La experiencia previa influye positivamente.
-5.5 Contexto macroeconómico\
+**5.5** Contexto macroeconómico\
 La suscripción aumenta cuando el entorno económico es incierto o débil.
 Los clientes buscan seguridad y ahorro en periodos desfavorables.
-6. Conclusiones generales\
+6. Conclusiones generales
 - La duración de la llamada es el factor más determinante del éxito.
 - La experiencia previa positiva con el cliente incrementa la conversión.
 - Exceso de contactos reduce la efectividad, evidenciando saturación comercial.
 - El canal móvil y ciertos momentos del año mejoran resultados.
 - Las condiciones macroeconómicas adversas favorecen la contratación de productos de ahorro.
 - Las variables demográficas clásicas tienen impacto limitado.
-7. Recomendaciones de negocio\
+7. Recomendaciones de negocio
 - Priorizar llamadas de mayor calidad y duración.
 - Focalizar campañas en clientes con historial positivo.
 - Reducir contactos repetitivos sin respuesta.
